@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+body{
+    background-color: #e8e8e8;
+    padding-top: 80px;
+}
+
+.list{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 220px;
+}
+
+.list li{
+    background: url('../img/checkicon.png') left no-repeat;
+    background-size: 15px;
+    background-position: 2px 2px;
+    padding-left: 20px;
+}
+
+.list :nth-child(1){
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: "Arial"; 
+    padding-bottom: 5px;
+}
+.list :nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+    padding-bottom: 5px;
+}
+.list :nth-child(3){
+    font-size: 14px;
+    font-style: italic;
+    font-family: "Arial";
+    padding-bottom: 5px;
+}
+.list :nth-child(4){
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+.list-2{
+    display: block;
+    margin-bottom: 80px;
+    width: 340px;
+    height: 102px;
+    margin-left: 220px;
+}
+
+
+.list-2 li{
+background: url('../img/checkicon.png') left no-repeat;
+background-size: 15px;
+background-position: 2px 2px;
+ padding-left: 20px;
+}
+
+.list-2 li:hover{
+color: red;
+background: url('../img/check\ icon.png')left no-repeat;
+background-size: 15px;
+background-position: 2px 2px;
+}
+
+.list-2 :nth-child(1){
+    font-size: 14px;
+    padding-bottom: 7px;
+    font-family: "Arial";
+}
+.list-2 :nth-child(2){
+    font-size: 14px;
+    padding-bottom: 7px;
+    font-family: "Arial";
+}
+.list-2 :nth-child(3){
+    font-size: 14px;
+    padding-bottom: 7px;
+    font-family: "Arial";
+}
+.list-2 :nth-child(4){
+    font-size: 14px;
+    font-family: "Arial";
+    padding-bottom: 7px;
+}
+
+.button-text{
+    width: 185px;
+    height: 40px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    background: #5fb9b5;
+    border-radius: 25px;
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+    margin-left: 220px;
+}
+.button-text:hover{
+    background-color: darkslategrey;
+}
+.button-text:active{
+    background-color: dimgrey;
+}
+
+.text-button{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-transform: uppercase;
+    background: url("../img/shape-two.png") center right 17px no-repeat;
+}
+
+.text-input{
+    width: 270px;
+    height: 50px;
+    border: 0.5px solid #999;
+    margin-left: 220px;
+    margin-bottom: 80px;
+}
+.text-input:hover{
+    border: 1.5px solid deepskyblue;
+    box-shadow:0px 6px 40px 0 rgba(0, 191, 255, 0.4) ;
+}
+
+.div-first{
+    width: 900px;
+    margin-left: 220px;
+}
+
+.first-line{
+    font-family: "Arial";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.first-letter{
+    font-family: "Arial";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.first-line::first-line{
+    color: red;
+}
+.first-letter::first-letter{
+    color: red ;
+    font-size: 40px;
+}
